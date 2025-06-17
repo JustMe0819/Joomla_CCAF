@@ -1,0 +1,66 @@
+.soliguide-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.soliguide-box {
+  text-align: center;
+  background-color: #B9EFDC;
+  padding: 40px 30px;
+  border: 2px solid #1C916A;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.soliguide-logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.soliguide-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #F18997;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  margin: 20px 0;
+}
+
+.soliguide-button:hover {
+  background-color: #A71B25;
+  color : #F18997;
+}
+
+.soliguide-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.soliguide-list li {
+  padding: 8px 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.soliguide-note {
+  font-size: 14px;
+  color: #555;
+  margin-top: 15px;
+}

@@ -1,0 +1,47 @@
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #444;
+  margin-top: 1em;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.italic-text {
+  font-style: italic;
+  color: #b30000;
+}
+
+.btn-don {
+  display: inline-block;
+  background-color: #F18997; 
+  color: #000;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+.btn-don:hover {
+  background-color: #D2222E; /* couleur rose */
+  color: #fff; /* texte blanc */
+}
+
+
+hr {
+  margin: 2em 0;
+  border: 1px solid #D0D3D1;
+}

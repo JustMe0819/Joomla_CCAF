@@ -1,0 +1,93 @@
+/* Conteneur des cartes */
+.bulletin-wrapper {
+  display: flex;
+  justify-content: center; /* Centrage des cartes */
+  gap: 30px; /* Espace entre les cartes */
+  flex-wrap: wrap; /* Permet aux cartes de se réorganiser sur plusieurs lignes si besoin */
+  padding: 10px;
+  width: 100%;
+}
+
+/* Carte d'un bulletin */
+.bulletin-card {
+  background: #B9EFDC;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 320px; /* Largeur fixe pour chaque carte */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image du bulletin */
+.bulletin-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Contenu de la carte */
+.bulletin-content {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Titre du bulletin */
+.bulletin-content h3 {
+  margin: 0 0 0.5rem;
+  color: #222;
+  font-size: 1.1rem;
+}
+
+/* Description du bulletin */
+.bulletin-content p {
+  flex: 1;
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Bouton pour lire le bulletin */
+.btn-bulletin {
+  background-color: #F18997;
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  align-self: start;
+  transition: background-color 0.3s ease;
+}
+
+.btn-bulletin:hover {
+  background-color: #A71B25;
+  color: #F18997;
+}
+
+/* Comportement responsive */
+@media screen and (max-width: 1200px) {
+  .bulletin-wrapper {
+    justify-content: center; /* Maintenir le centrage */
+  }
+  .bulletin-card {
+    width: 280px; /* Ajustement de la largeur sur des écrans moyens */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bulletin-card {
+    width: 250px; /* Réduction de la largeur sur les écrans plus petits */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bulletin-wrapper {
+    flex-direction: column; /* Les cartes se mettront sous forme de colonne sur les petits écrans */
+    align-items: center; /* Centrage sur petit écran */
+  }
+  .bulletin-card {
+    width: 90%; /* Chaque carte prend plus de place sur les petits écrans */
+  }
+}

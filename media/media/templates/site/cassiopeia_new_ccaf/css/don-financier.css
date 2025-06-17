@@ -1,0 +1,63 @@
+.don-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.stat-card img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.stat-number {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #008060;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.don-usage-container {
+  background-color: #ef7e8c;
+  padding: 20px 20px;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+}
+
+.don-usage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 20px;
+}
+
+.usage-card {
+  background: white;
+  color: #4F0D11;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.usage-percent {
+  font-weight: bold;
+  font-size: 1.3rem;
+}

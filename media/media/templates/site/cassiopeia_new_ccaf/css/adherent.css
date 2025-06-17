@@ -1,0 +1,50 @@
+#adherent-section {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #F4BEC1;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+#adhesionDetails {
+  margin-top: 1rem;
+  background-color: #ffffff; 
+  padding: 1rem;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+}
+
+.adh-hidden {
+  display: none;
+}
+
+#adherent-section input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*Focus rose sur les champs */
+#adherent-section input:focus {
+  outline: 2px solid #F18997;
+  border-color: #F18997;
+}
+
+#adherent-section label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+}
+
+#adherent-section input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #1b6840; /* Vert quand coché */
+  cursor: pointer;
+}

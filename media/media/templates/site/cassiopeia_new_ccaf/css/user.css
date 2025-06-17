@@ -1,0 +1,149 @@
+/* ----- header ----- */
+.container-header {
+  position: relative;
+  padding: 10px 0;
+  z-index: 10;
+  margin-bottom: 20px;  
+}
+
+.container-header .navbar-brand {
+  margin: auto;
+  justify-content: center;
+}
+
+/* ----- boutons du header ----- */
+.button_below:hover {
+  transform: scale(1.08);
+  z-index: 2;
+}
+
+/* ----- Pied de page ----- */
+.container-footer {
+  position: relative;
+  background-color: #167354; 
+  margin: 0;
+  padding: 0;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ----- footer partie réseaux sociaux ----- */
+.footer-top {
+  background-color: #FFB900; 
+  padding: 20px 0;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.social-footer a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-footer a:hover img {
+  transform: scale(1.1);
+}
+
+/* ----- footer partie copyright ----- */
+
+.footer-bottom {
+    background-color: #0B3828; 
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* ----- footer partie menu ----- */
+.mod-menu.mod-list.nav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.mod-menu.mod-list.nav > li {
+    flex: 1; 
+    text-align: center; 
+}
+
+/* ----- access icon ----- */
+._access-icon._access {
+    position: fixed;
+    top: 0 !important;
+    right: 0 !important;
+    left: auto !important;
+}
+
+._access-menu._access {
+  position: fixed;
+  top: 50px !important;
+  right: 0 !important;
+  left: auto !important;
+}
+
+
+/* ----- bannières ----- */
+.bann {
+  background: #EAFBF5;
+  padding: 25px;
+  text-align: center;
+}
+
+.bann h1 {
+  margin: 25px;
+}
+
+.bann p {
+  text-align: center;
+}
+
+/* ----- breadcrumb ----- */
+.breadcrumb-item.active span {
+  color: #F18997 !important;
+}
+
+/* ----- bouton ajout d'article ----- */
+a[href*="task=article.add"] {
+  display: none !important;
+}
+
+/* ----- bouton lire plus ----- */
+.readmore {
+    margin-top: 10px;
+    text-align: center; /* centre le lien dans le paragraphe */
+}
+
+.readmore .btn.btn-secondary {
+    background-color: #FFD700; /* jaune doré */
+    border: none;
+    color: #000; /* texte noir lisible */
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.readmore .btn.btn-secondary:hover {
+    background-color: #e6be00; /* jaune foncé au survol */
+}
+

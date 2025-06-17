@@ -1,0 +1,68 @@
+.service-civique-container {
+  max-width: 800px;
+  margin: auto;
+  font-family: inherit;
+  line-height: 1.6;
+  padding-bottom: 3em; 
+}
+
+.sc-title {
+  background-color: #e8f9f2;
+  padding: 1.2em;
+  text-align: center;
+  font-size: 1.8em;
+  color: #333;
+  border-radius: 8px;
+}
+
+.sc-box {
+  background: #f7f7f7;
+  border-left: 5px solid #F18997;
+  padding: 1em;
+  margin: 2em 0;
+  border-radius: 6px;
+}
+
+.sc-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sc-box li {
+  margin: 0.5em 0;
+}
+
+.sc-annonces {
+  margin-bottom: 2em;
+}
+
+.sc-pdf-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.sc-btn {
+  display: inline-block;
+  background-color: #22B080;
+  color: white;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.sc-btn:hover {
+  background-color: #11553E;
+  color: white;
+}
+
+.sc-secondary {
+  background-color: #F18997;
+}
+
+.sc-secondary:hover {
+  background-color: #D2222E;
+}

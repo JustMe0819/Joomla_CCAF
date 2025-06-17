@@ -1,0 +1,33 @@
+.ccaf-titre-benevolat {
+  text-align: center;
+  font-weight: bold;
+}
+
+.ccaf-boxes-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.ccaf-box {
+  flex: 1 1 300px;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F18997;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ccaf-form-intro, .ccaf-contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ccaf-contact-info {
+  font-size: 14px;
+  font-style: italic;
+}

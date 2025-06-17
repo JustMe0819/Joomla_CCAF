@@ -1,0 +1,108 @@
+/* Groupe de FAQ (thème) */
+.faq-group {
+  background: #FADDDF; /* ou #5DE0B3 selon le thème */
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 16px;
+}
+
+/* Titre du thème (cliquer pour ouvrir/fermer) */
+.faq-theme {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 25px;
+}
+
+.faq-theme-toggle {
+  cursor: pointer;
+  position: relative;
+  padding-right: 30px;
+}
+
+.faq-theme-toggle::after {
+  content: '+';
+  position: absolute;
+  right: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.faq-theme-toggle.active::after {
+  content: '–';
+}
+
+/* Questions masquées par défaut */
+.faq-questions {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.faq-questions.open {
+  max-height: 1000px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+
+/* Bloc question */
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 18px 20px;
+  font-size: 18px;
+  text-align: left;
+  background: #ffffff; /* fond blanc */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  position: relative;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.faq-question::after {
+  content: '+';
+  position: absolute;
+  right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.faq-question.active::after {
+  content: '–';
+}
+
+/* Réponse masquée par défaut */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #1a1a1a;
+  background: #FADDDF;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.faq-question.active + .faq-answer {
+  max-height: 300px; /* assez grand pour la réponse */
+  opacity: 1;
+  padding-top: 15px;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

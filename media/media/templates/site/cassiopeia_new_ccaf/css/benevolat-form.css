@@ -1,0 +1,100 @@
+.bv-form {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.bv-form-progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bv-step {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bv-step.active {
+  background-color: #22B080;
+}
+
+.bv-step-content {
+  display: none;
+  background-color: #e6f5ef;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bv-step-content.active {
+  display: block;
+}
+
+.bv-title {
+  font-size: 1.5em;
+  color: #22B080;
+  margin-bottom: 20px;
+}
+
+.bv-form input[type="text"],
+.bv-form input[type="tel"],
+.bv-form input[type="email"],
+.bv-form input[type="date"],
+.bv-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.bv-form input:focus,
+.bv-form textarea:focus {
+  border-color: #F18997;
+  outline: none;
+}
+
+.bv-label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+.bv-btn-next,
+.bv-btn-prev,
+.bv-btn-submit {
+  background-color: #ffd400;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  margin: 15px 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bv-btn-next:hover,
+.bv-btn-prev:hover,
+.bv-btn-submit:hover {
+  background-color: #ffcc00;
+}
+
+.bv-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.bv-table th,
+.bv-table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}

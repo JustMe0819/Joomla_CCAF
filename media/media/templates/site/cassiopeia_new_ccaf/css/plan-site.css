@@ -1,0 +1,53 @@
+.plan-site {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background: #fff;
+}
+
+.plan-site .column {
+  flex: 1 1 200px;
+}
+
+.plan-site h3 {
+  color: #A2C7A1; /* vert clair */
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #F7DA64; /* touche jaune */
+  padding-bottom: 0.2rem;
+}
+
+.plan-site ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-site li {
+  margin-bottom: 0.4rem;
+}
+
+.plan-site a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.plan-site a:hover {
+  color: #F18997; /* rose */
+}
+
+.plan-site .highlight h3 {
+  color: #F18997; /* rose */
+}
+
+.plan-site .highlight a {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .plan-site {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,64 @@
+.members-section {
+  padding: 2rem;
+  border-radius: 25px;
+}
+
+.members-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.member-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+  transform: scale(1.03);
+}
+
+.member-photo {
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+}
+
+.member-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: #167354; 
+}
+
+.member-role {
+  font-weight: 600;
+  color: #555;
+}
+
+.member-desc {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.rose-bg {
+  background-color: #F4BEC1;
+}
+
+.jaune-bg {
+  background-color: #FFEAB2;
+}

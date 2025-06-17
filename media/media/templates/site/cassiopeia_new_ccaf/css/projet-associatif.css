@@ -1,0 +1,149 @@
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --- TITRE PRINCIPAL --- */
+.project-title {
+  font-size: 42px;
+  color: #2d6a4f;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+
+/* --- DESCRIPTION DU PROJET --- */
+.project-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.card-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #52b788;
+  border-radius: 20px 0 0 20px;
+}
+
+.project-description {
+  font-size: 20px;
+  color: #081c15;
+  margin-left: 20px;
+}
+
+/* --- BOUTON EXPORT PDF --- */
+.export-btn {
+  display: inline-block;
+  background-color: #F18997;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 12px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.export-btn:hover {
+  background-color: #D2222E;
+  color: white;
+}
+
+/* --- OBJECTIFS --- */
+.objectives-section {
+  padding-top: 60px;
+  font-family: sans-serif;
+  padding-bottom: 100px;
+}
+
+.objectives-section h2 {
+  font-size: 30px;
+  color: #2d6a4f;
+  margin-bottom: 50px;
+  line-height: 1.4;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grille 3x3 max */
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  list-style: none;
+  padding-left: 0;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* --- CARTE OBJECTIF --- */
+.objective-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-top: 6px solid #52b788;
+  text-align: center;
+}
+
+.objective-card:hover {
+  transform: translateY(-6px);
+}
+
+.objective-card h3 {
+  font-size: 20px;
+  color: #2d6a4f;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.objective-card p {
+  font-size: 16px;
+  color: #212121;
+  line-height: 1.6;
+}
+
+/* --- ICÔNES --- */
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.icon-circle img {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-circle:before {
+  content: "" !important;
+}
+
+/* COULEURS SPÉCIFIQUES */
+.icon-circle.green {
+  background-color: #d8f3dc;
+}
+.icon-circle.pink {
+  background-color: #ffe0e9;
+}
+.icon-circle.yellow {
+  background-color: #fff4cc;
+}
